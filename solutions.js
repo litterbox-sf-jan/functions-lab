@@ -7,7 +7,7 @@ function maxOfTwoNumbers(x,y) {
 }
 
 function maxOfThree(x,y,z) {
-  if (x > y ** x > z) {
+  if (x > y && x > z) {
     return x;
   }
 
